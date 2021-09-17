@@ -61,7 +61,7 @@ let timeoutId = null;
 const cache_dir = GLib.get_user_cache_dir()
 const ddcutil_detect_cache_file = `${cache_dir}/ddcutil_detect`;
 
-const ddcutil_path = "/usr/bin/ddcutil";
+const ddcutil_path = "ddcutil";
 
 
 class DDCUtilBrightnessControlExtension {
